@@ -42,3 +42,41 @@
 
 // console.log(`I'm ${myAge} years old.`);
 
+
+
+
+// let btn = document.querySelector('.btn');
+
+// btn.addEventListener('click', ()=>{
+//     if(btn.innerText === 'Subscribe'){
+//         btn.innerText = 'Subscribed';
+    
+//     }
+     
+//     else {
+//         btn.innerText === 'Subscribe'
+//     }
+    
+// })
+
+
+// input button edit
+
+// let btn = document.querySelector('.btn');
+
+
+// btn.addEventListener('click', ()=>{
+
+    
+//     let inpt = document.querySelector('.inpt');
+
+//    let output = inpt.value;
+ 
+   
+//    console.log(output)
+   
+// })
+
+
+
+
