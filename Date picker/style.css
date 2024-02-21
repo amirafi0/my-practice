@@ -1,0 +1,23 @@
+.main{
+   
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(144, 95, 31);
+    color: aqua;
+    border-radius: 10px;
+    border: none;
+    margin: 8px;
+   
+}
+
+
+.result{
+    background-color: coral;
+  
+}
+
