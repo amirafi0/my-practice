@@ -12,12 +12,18 @@ button{
     border-radius: 10px;
     border: none;
     margin: 8px;
+    font-size: 15px;
    
 }
 
+button:hover{
+    background-color: aqua;
+    color: rgb(144, 95, 31);
+    cursor: pointer;
+}
 
 .result{
     background-color: coral;
-  
+    
 }
 
