@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: tomato;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: aliceblue;
+}
+
+.dec{
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: aliceblue;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.show{
+    text-align: center;
+    color: darkturquoise;
+}
