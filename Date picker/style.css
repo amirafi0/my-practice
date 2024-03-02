@@ -6,7 +6,7 @@
 }
 
 button{
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(144, 95, 31);
     color: aqua;
     border-radius: 10px;
@@ -27,3 +27,9 @@ button:hover{
     
 }
 
+body{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
