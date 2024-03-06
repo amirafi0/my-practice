@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: chartreuse;
+    color: crimson;
+    font-size: 15px;
+}
+
+.btn:hover{
+    color: chartreuse;
+    background-color: crimson;
+    cursor: pointer;
+    scale: 1.2;
+ 
+}
+
