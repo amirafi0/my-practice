@@ -1,0 +1,267 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+/* slider */
+
+
+.slide{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    top: 51px;
+    transition: .5s;
+    background-color: rgb(239, 229, 249);
+}
+
+
+
+.slide ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 55px;
+    font-size: 16px;
+    color: rgb(14, 8, 8);
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    transition: .4s;
+    text-decoration: none;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.slide ul a i{
+    margin-right: 16px;
+    
+}
+
+#check{
+    display: none;
+}
+
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 3px;
+
+}
+
+label #btn{
+  
+    left: 40px;
+    top: 5px;
+    font-size: 26px;
+    color: white;
+    padding: 6px 12px ;
+}
+
+label #cancel{
+    z-index: 1111;
+    left: 40px;
+    top: 5px;
+    font-size: 26px;
+    color: rgb(235, 235, 245);
+    padding: 6px 12px;
+    display: none;
+}
+
+#check:checked ~ .slide{
+    left: 0;
+}
+
+#check:checked ~ label #cancel{
+    left: 40px;
+    display: block;
+}
+
+#check:checked ~ label #btn{
+    display: none;
+}
+
+/* down-slider */
+
+
+.down-option{
+  position: fixed;
+  left: 15px;
+  right: 15px;
+  width: 90%;
+  height: 50px;
+  top: -300px;
+  transition: .5s;
+  background-color: rgb(141, 23, 74);
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.down-option i{
+
+  font-size: 22px;
+  background-color: rgb(195, 162, 162);
+  padding: 6px;
+  color: white;
+  border-radius: 50%;
+}
+
+.bl{
+  margin-left: 60px;
+}
+
+#down{
+  display: none;
+}
+
+
+label #dots{
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 3px;
+  right: 40px;
+  top: 10px;
+  font-size: 26px;
+  color: rgb(183, 22, 22);
+  background-color: #f1f1f1;
+}
+
+
+#down:checked ~ .down-option{
+  top: 65px;
+  
+}
+
+.acnt{
+  border: none;
+  border-radius:20px;
+  padding: 2px 7px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+   background-color: rgb(164, 26, 95);
+   top: 0;
+   right: 0;
+   left: 0;
+   padding: 8px;
+   color: white;
+   font-size: 26px;
+  }
+
+  .intro{
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  
+  .main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 7px;
+  
+  }
+  .parts{
+    background-color: #f1f1f1;
+    height: 260px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .parts i{
+    color:rgb(78, 78, 189) ;
+    font-size: 100px;
+    margin-top: 20px;
+  }
+  .parts h4{
+    margin-top: 15px;
+  }
+  .parts p{
+    margin-top:18px;
+    
+  }
+  
+  .info{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+    background-color: rgb(41, 156, 41);
+    color:white;
+    margin:17px;
+    border-radius:10px;
+    padding: 16px;
+  padding-left: 47px;
+  font-size: 19px;
+  }
+  
+  .info button{
+    padding: 8px 10px;
+    border-radius: 10px;
+    border:none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .as{
+    margin: 16px;
+  }
+  
+  table{
+    border:2px solid gray;
+    width: 94%;
+    margin-left: 10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+  }
+  
+  table thead tr td{
+    padding: 15px;
+  }
+  
+  table tr td{
+    text-align: center;
+  }
+  
+  .t{
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .col{
+    background-color: #f1f1f1;
+  }
+  
+  .nav{
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    background-color: rgb(174, 45, 45);
+    display: block;
+  }
+
+  .nav ul li i{
+    width: 40px;
+    text-align: center;
+  }
+
+.level{
+  padding: 13px;
+  font-size: 19px;
+}
