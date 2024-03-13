@@ -1,0 +1,51 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #76a5af;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    color: #4f4a2a;
+    margin: 30px;
+}
+
+.main button{
+    padding: 6px 9px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+.main button:hover{
+    background-color: white;
+    color: green;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#fan{
+    width: 200px;
+}
+
+.on{
+    animation: fan 0.7s linear infinite;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes fan{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
