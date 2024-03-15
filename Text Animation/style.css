@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(15, 70, 70);
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 80px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008) ;
+    line-height: 53px;
+    animation: text 4s linear infinite;
+}
+
+@keyframes text{
+
+    0%,15%,28%,39%,51%,68%,79%,92%
+    {
+        color: rgb(15, 70, 70);
+    }
+
+    0%,15.1%,28.1%,39%,51.1%,68%,79.1%,92.1%,100%
+    {
+        color: #fff;
+    }
+}
+
+
