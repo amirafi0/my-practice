@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: darkseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.display{
+    color: rgb(135, 21, 21);
+    font-size: 40px;
+}
+
+.btns i{
+    padding: 8px;
+    color: rgb(197, 220, 20);
+    background-color: rgb(13, 133, 177);
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 15px;
+   padding: 10px;
+}
+
+i:hover{
+    color: rgb(13, 133, 177);
+    background-color: rgb(197, 220, 20);
+    cursor: pointer;
+}
