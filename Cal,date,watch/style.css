@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #672c47;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 100vh;
+}
+
+.cmn{
+  height: 100px;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+  transition: .5s;
+}
+
+.cmn:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.watch{
+    background-color: rgb(35, 176, 176);
+    color: brown;
+}
+
+.watch:hover{
+    background-color: brown;
+}
+
+.watch a:hover{
+    color:rgb(55, 218, 218) ;
+}
+
+.calender{
+    background-color: rgb(33, 186, 86);
+    color: rgb(217, 245, 31);
+}
+
+.calender:hover{
+    color:rgb(229, 31, 140) ;
+    background-color:rgb(114, 149, 9) ;
+}
+
+.timer{
+    background-color: #e5c54f;
+    color: #2c4767;
+}
+
+.timer:hover{
+    background-color:#2c4767;
+}
+
+.timer a:hover{
+    color: #e5c54f;
+}
+
+.cmn h1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 100%;
+}
+
+.cmn a{
+    text-decoration: none;
+}
