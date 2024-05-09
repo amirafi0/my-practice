@@ -1,0 +1,30 @@
+body{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+  div{
+    background: orange;
+    padding: 10px 15px;
+    border-radius:10px;
+  }
+  .btn{
+   float: right;
+  }
+  button{
+    padding: 8px 14px;
+    border-radius:10px;
+  }
+  .y:hover{
+   background-color: crimson; 
+   border: none;
+  }
+  .btn:hover{
+    margin-top: -150px;
+    color: white;
+    background: green;
+   padding: 12px 20px;
+   border: none;
+   
+  }
