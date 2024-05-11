@@ -1,0 +1,128 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bx{
+    font-size: 30px;
+}
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+.progress{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+.progress div span{
+    height: 40px;   
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background: #e91e63;
+    animation: ht 1s linear forwards;
+}
+.bxl-html5{
+    color: #e91e63;
+}
+.html span{
+    border: 1px solid #e91e63;
+}
+.css{
+    background: #cddc39;
+    animation:css 1s linear forwards;
+}
+.bxl-css3{
+    color: #cddc39;
+}
+.css span{
+    border: 1px solid #cddc39;
+}
+.js{
+    background: #00bcd4;
+    animation: js 1s linear forwards;
+}
+.bxl-javascript{
+    color: #00bcd4;
+}
+.js span{
+    border: 1px solid #00bcd4;
+}
+.python{
+    background: #ffeb3b;
+    animation: py 1s linear forwards;
+}
+.bxl-python{
+    color: #ffeb3b;
+}
+.python span{
+    border: 1px solid #ffeb3b;
+}
+.react{
+    background: #9c27b0;
+    animation: rea 1s linear forwards;
+}
+.bxl-react{
+    color: #9c27b0;
+}
+.react span{
+    border: 1px solid #9c27b0;
+}
+
+
+@keyframes ht{
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 85%;
+    }
+}
+@keyframes js{
+    100%{
+        width: 74%;
+    }
+}
+@keyframes py{
+    100%{
+        width: 64%;
+    }
+}
+@keyframes rea{
+    100%{
+        width: 72%;
+    }
+}
+
+
+
+
