@@ -1,0 +1,14 @@
+body{
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: darkblue;
+}
+.emo{
+  font-size: 50px;
+}
+.emo:hover{
+  transform: scale(1.6);
+}
